@@ -70,4 +70,4 @@ def get_style(language_hash, language)
   end
   style_array
 end
-reformat_languages("test")
+
