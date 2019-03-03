@@ -58,4 +58,11 @@ def get_type(language_hash, language)
   end
 end
 
+def get_style(language_hash, language)
+  language_hash.each do |style, languages|
+    languages.each do |name, data|
+      binding.pry 
+    end
+  end
+end
 reformat_languages("test")
