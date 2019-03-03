@@ -68,7 +68,6 @@ def get_style(language_hash, language)
       end
     end
   end
-  puts style_array
   style_array
 end
 reformat_languages("test")
