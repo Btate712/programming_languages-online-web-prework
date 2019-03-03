@@ -62,7 +62,8 @@ end
 def get_style(language_hash, language)
   language_hash.each do |style, languages|
     languages.each do |name, data|
-      binding.pry
+      if name = language
+        style_array.push(style)
     end
   end
 end
