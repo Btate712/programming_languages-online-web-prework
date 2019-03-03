@@ -36,7 +36,7 @@ def reformat_languages(languages)
   get_all_names(languages).each do |name|
     new_hash[name] = {:type=>get_type(languages, name), :style=>get_style(languages, name)}
   end
-  puts new_hash
+  binding.pry 
 end
 
 def get_all_names(language_hash)
