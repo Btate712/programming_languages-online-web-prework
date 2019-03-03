@@ -64,7 +64,9 @@ def get_style(language_hash, language)
     languages.each do |name, data|
       if name = language
         style_array.push(style)
+      end
     end
   end
+  style_array
 end
 reformat_languages("test")
