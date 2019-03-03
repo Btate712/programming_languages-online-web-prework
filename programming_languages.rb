@@ -60,6 +60,7 @@ def get_type(language_hash, language)
 end
 
 def get_style(language_hash, language)
+  style_array = []
   language_hash.each do |style, languages|
     languages.each do |name, data|
       if name = language
@@ -67,6 +68,7 @@ def get_style(language_hash, language)
       end
     end
   end
+  puts style_array
   style_array
 end
 reformat_languages("test")
